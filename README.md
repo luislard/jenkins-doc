@@ -1,6 +1,6 @@
 # Jenkins server configuration
 
-## install jenkins ubuntu 16.04
+## Install jenkins ubuntu 16.04
 
 ```bash
 wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
@@ -10,20 +10,20 @@ sudo apt-get install jenkins -y
 sudo systemctl start jenkins
 ```
 
-## opening jenkins port
+## Opening jenkins port
 
 ```bash
 sudo ufw allow 8080
 ```
 
-## create key for jenkins so he can sign in to Github and Update status
+## Create key for jenkins so he can sign in to Github and Update status
 
 ```bash
 sudo -u jenkins -i
 ssh-keygen -t rsa
 ```
 
-## configure the user access to the repo (todo)
+## Configure the user access to the repo (todo)
 
 ## Install php 
 
@@ -31,7 +31,7 @@ ssh-keygen -t rsa
 sudo apt-get install php php-sqlite3 php-apcu
 ```
 
-## install composer 
+## Install composer 
 
 ```bash
 curl -sS https://getcomposer.org/installer -o composer-setup.php
