@@ -31,6 +31,17 @@ ssh-keygen -t rsa
 sudo apt-get install php php-sqlite3 php-apcu
 ```
 
+## Install zip php-zip extension
+
+
+```bash
+sudo apt-get update && \
+    sudo apt-get install -y \
+        zlib1g-dev \
+        php-zip \
+        php-mbstring
+```
+
 ## Install composer 
 
 ```bash
