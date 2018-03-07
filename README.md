@@ -70,3 +70,19 @@ java -jar jenkins-cli.jar -s http://jenkins.luisrosales.info:8080 safe-restart
 ```bash
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
+
+
+## Resources
+
+https://anil.io/blog/php/setup-jenkins-php-phing-symfony-phpunit/
+
+http://jenkins-php.org/index.html
+
+https://www.youtube.com/watch?v=68cDNUz7uro&list=PLzvRQMJ9HDiSaisKr7OnM4Fl7JXCDDcmt&index=5 
+
+### With Docker
+
+https://www.thepolyglotdeveloper.com/2017/04/continuous-deployment-of-web-application-containers-with-jenkins-and-docker/
+
+
+
